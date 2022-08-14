@@ -5,4 +5,5 @@ description = "The sieve-of-atkin package"
 license = "MIT"
 
 [remote]
+origin = "git@github:arosboro/sieve-of-atkin"
 author = "arosboro"
