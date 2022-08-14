@@ -1,0 +1,8 @@
+[project]
+name = "sieve-of-atkin"
+version = "0.1.0"
+description = "The sieve-of-atkin package"
+license = "MIT"
+
+[remote]
+author = "arosboro"
