@@ -1,7 +1,7 @@
 // The program input for sieve-of-atkin/src/main.leo
 [main]
-limit: u32 = 20;
-index: u32 = 0;
+start: u32 = 0;
+limit: u32 = 100;
 sieve: [[bool; 10]; 10] = [[false, false, false, false, false, false, false, false, false, false],
                             [false, false, false, false, false, false, false, false, false, false],
                             [false, false, false, false, false, false, false, false, false, false],
@@ -12,6 +12,7 @@ sieve: [[bool; 10]; 10] = [[false, false, false, false, false, false, false, fal
                             [false, false, false, false, false, false, false, false, false, false],
                             [false, false, false, false, false, false, false, false, false, false],
                             [false, false, false, false, false, false, false, false, false, false]];
+
 
 [registers]
 r0: [bool; 100] = [
